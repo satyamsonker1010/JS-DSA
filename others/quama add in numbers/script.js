@@ -22,26 +22,3 @@ const outputQuama = (data) => {
 };
 
 console.log(outputQuama(data))
-
-// function addComma(num) {
-//   const [integer, float] = String(num).split(".");
-//   const fraction = float ? `.${float}` : "";
-//   let result = "",
-//     j = 0,
-//     currentChar;
-
-//   for (let i = integer.length - 1; i >= 0; i--) {
-//     currentChar = integer[i];
-//     if (j=== 3 && typeof Number(currentChar) === "number") {
-//       j = 1;
-//       result = `${currentChar},` + result;
-//     } else {
-//       result = currentChar + result;
-//       j++;
-//     }
-//   }
-
-//   return `${result}${fraction}`;
-// }
-
-// console.log(addComma(data));

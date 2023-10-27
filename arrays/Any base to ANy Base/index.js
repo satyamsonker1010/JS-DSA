@@ -1,0 +1,1 @@
+//// first change into decimal then change into other base 
